@@ -4,6 +4,8 @@
 #define BOARD_SIZE 9
 #define CELL_SIZE 3
 
+int solve_board(int** board);
+
 int** alloc_board(void);
 void free_board(int** board);
  

@@ -35,7 +35,7 @@ void fill_solvable(int** board) {
 
   for (int i = 0; i < BOARD_SIZE; i++) {
     for (int j = 0; j < BOARD_SIZE; j++) {
-        board[i][j] = solvable_board[i][j];
+      board[i][j] = solvable_board[i][j];
     }
   }
 }
@@ -55,7 +55,7 @@ void fill_unsolvable(int** board) {
 
   for (int i = 0; i < BOARD_SIZE; i++) {
     for (int j = 0; j < BOARD_SIZE; j++) {
-        board[i][j] = unsolvable_board[i][j];
+      board[i][j] = unsolvable_board[i][j];
     }
   }
 }
